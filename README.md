@@ -30,7 +30,6 @@ Para inicializar o projeto é necessário seguir os comandos a seguir:
 ```bash
 git clone https://github.com/RafaelHDSV/Oak-Tecnologia.git
 npm install
-npm install react-router-dom
 ```
 
 <h3>Começando</h3>
@@ -64,7 +63,7 @@ O projeto é basicamente dividido em duas rotas:
 
 <hr/>
 
-### route: <kbd>erro</kbd
+### route: <kbd>erro</kbd>
 
 <img src="./public/assets/erro.png"/>
 
