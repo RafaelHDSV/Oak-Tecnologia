@@ -91,7 +91,3 @@ Requisito: 𝐂𝐚𝐝𝐚𝐬𝐭𝐫𝐨 𝐞 𝐥𝐢𝐬𝐭𝐚𝐠𝐞�
 
 𝐏𝐨𝐝𝐞 𝐢𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐫 𝐚 𝐩𝐫𝐨𝐯𝐚 𝐚𝐭𝐞́ 𝐨𝐧𝐝𝐞 𝐜𝐨𝐧𝐬𝐞𝐠𝐮𝐢𝐫.
 𝐀 𝐢𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐚𝐜̧𝐚̃𝐨 𝐩𝐨𝐝𝐞 𝐬𝐞𝐫 𝐫𝐞𝐚𝐥𝐢𝐳𝐚𝐝𝐚 𝐜𝐨𝐦 𝐪𝐮𝐚𝐥𝐪𝐮𝐞𝐫 𝐥𝐢𝐧𝐠𝐮𝐚𝐠𝐞𝐦 𝐝𝐞 𝐩𝐫𝐨𝐠𝐫𝐚𝐦𝐚𝐜̧𝐚̃𝐨.
-
-## Apoie
-
-<a href="https://www.buymeacoffee.com/vieira" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 60px !important;width: 217px !important;" ></a>
