@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default ({ data }) => {
+const List = ({ data }) => {
 	const [sortOrder, setSortOrder] = useState('asc');
 	const navigate = useNavigate();
 
@@ -44,7 +44,7 @@ export default ({ data }) => {
 								<td>{item.name}</td>
 								<td>{item.description}</td>
 								<td>
-									{item.value != ''
+									{item.value !== ''
 										? `R$ ${item.value}`
 										: ''}
 								</td>
@@ -68,3 +68,5 @@ export default ({ data }) => {
 		</div>
 	);
 };
+
+export default List;
