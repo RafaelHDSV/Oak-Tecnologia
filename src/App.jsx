@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { VisitCountFooter } from '@vieira/analytics/react'
+import './va-footer.css'
 
 import Register from './pages/Register';
 import List from './pages/List';
@@ -13,22 +15,27 @@ function App() {
 	};
 
 	return (
-		<Router>
-			<Routes>
-				<Route
-					exact
-					path='/'
-					element={
-						<Register
-							fetchListProps={fetchList}
-							currentList={data}
-						/>
-					}
-				/>
-				<Route path='/list' element={<List data={data} />} />
-				<Route path='*' element={<NotFound />}></Route>
-			</Routes>
-		</Router>
+		<>
+			<Router>
+				<Routes>
+					<Route
+						exact
+						path='/'
+						element={
+							<Register
+								fetchListProps={fetchList}
+								currentList={data}
+							/>
+						}
+					/>
+					<Route path='/list' element={<List data={data} />} />
+					<Route path='*' element={<NotFound />}></Route>
+				</Routes>
+			</Router>
+			<footer className='va-footer'>
+				<VisitCountFooter projectKey='oak-tecnologia' />
+			</footer>
+		</>
 	);
 }
 
